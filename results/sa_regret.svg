@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="\#(width)" height="\#(height)" viewBox="0 0 \#(width) \#(height)">
+<style>text{font-family:Menlo,monospace;font-size:12px;fill:#1b1b1b}.title{font-size:16px;font-weight:700}.bar{fill:#7c6ccf}.note{font-size:11px;fill:#555}</style>
+<rect width="100%" height="100%" fill="#fffdf8"/>
+<text class="title" x="24" y="28">SA regret vs exhaustive baseline</text>
+<text class="note" x="24" y="48">Regret is relative to the exhaustive best tuning score. Lower is better.</text>
+<text x="24" y="\#(y + 14)">\#(summary.target.name)</text>
+<rect x="\#(leftMargin)" y="\#(y)" width="\#(barWidth)" height="18" class="bar"/>
+<text x="\#(leftMargin + barWidth + 8)" y="\#(y + 14)">\#(String(format: "%.2f%%", summary.regretPercent))</text>
+<text class="note" x="\#(leftMargin)" y="\#(y + 34)">rank \#(summary.bestRank)/\#(summary.configCount) | evaluated \#(summary.evaluationCount) configs</text>
+<text x="24" y="\#(y + 14)">\#(summary.target.name)</text>
+<rect x="\#(leftMargin)" y="\#(y)" width="\#(barWidth)" height="18" class="bar"/>
+<text x="\#(leftMargin + barWidth + 8)" y="\#(y + 14)">\#(String(format: "%.2f%%", summary.regretPercent))</text>
+<text class="note" x="\#(leftMargin)" y="\#(y + 34)">rank \#(summary.bestRank)/\#(summary.configCount) | evaluated \#(summary.evaluationCount) configs</text>
+<text x="24" y="\#(y + 14)">\#(summary.target.name)</text>
+<rect x="\#(leftMargin)" y="\#(y)" width="\#(barWidth)" height="18" class="bar"/>
+<text x="\#(leftMargin + barWidth + 8)" y="\#(y + 14)">\#(String(format: "%.2f%%", summary.regretPercent))</text>
+<text class="note" x="\#(leftMargin)" y="\#(y + 34)">rank \#(summary.bestRank)/\#(summary.configCount) | evaluated \#(summary.evaluationCount) configs</text>
+<text x="24" y="\#(y + 14)">\#(summary.target.name)</text>
+<rect x="\#(leftMargin)" y="\#(y)" width="\#(barWidth)" height="18" class="bar"/>
+<text x="\#(leftMargin + barWidth + 8)" y="\#(y + 14)">\#(String(format: "%.2f%%", summary.regretPercent))</text>
+<text class="note" x="\#(leftMargin)" y="\#(y + 34)">rank \#(summary.bestRank)/\#(summary.configCount) | evaluated \#(summary.evaluationCount) configs</text>
+<text x="24" y="\#(y + 14)">\#(summary.target.name)</text>
+<rect x="\#(leftMargin)" y="\#(y)" width="\#(barWidth)" height="18" class="bar"/>
+<text x="\#(leftMargin + barWidth + 8)" y="\#(y + 14)">\#(String(format: "%.2f%%", summary.regretPercent))</text>
+<text class="note" x="\#(leftMargin)" y="\#(y + 34)">rank \#(summary.bestRank)/\#(summary.configCount) | evaluated \#(summary.evaluationCount) configs</text>
+</svg>

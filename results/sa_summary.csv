@@ -1,0 +1,6 @@
+target,category,shape,seed,start_config,best_config,best_median_ms,best_tuning_score_ms,best_stability_ratio,exhaustive_best_config,exhaustive_best_score_ms,score_gap_ms,regret_percent,best_rank,config_count,matched_exhaustive_best,evaluation_count
+square128,square,128x128x128,1511464998,m8n8k8_t8x8,sg_m16n16k8_t8x16,0.223770,0.223770,1.176429,sg_m16n16k8_t8x16,0.223770,0.000000,0.000000,1,19,true,7
+square256,square,256x256x256,1511464999,m32n32k8_t32x32,sg_m16n16k8_t16x8,0.428875,0.428875,1.045176,sg_m16n16k8_t32x4,0.428771,0.000104,0.024255,2,19,false,7
+medium_rect,medium_rect,192x320x96,1511465000,m16n16k16_t16x16,sg_m16n16k8_t16x8,0.307396,0.307396,1.025550,sg_m16n16k8_t16x8,0.307396,0.000000,0.000000,1,19,true,7
+edge_square,edge_heavy,130x130x130,1511465001,m16n16k16_t16x16,sg_m16n16k8_t8x16,0.241104,0.241104,1.064375,sg_m16n16k8_t8x16,0.241104,0.000000,0.000000,1,19,true,5
+edge_rect,irregular,255x257x129,1511465002,m32n32k8_t32x32,sg_m16n16k8_t16x8,0.352188,0.352188,1.050811,sg_m16n16k8_t16x8,0.352188,0.000000,0.000000,1,19,true,7

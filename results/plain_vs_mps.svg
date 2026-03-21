@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="\#(width)" height="\#(height)" viewBox="0 0 \#(width) \#(height)">
+<style>text{font-family:Menlo,monospace;font-size:12px;fill:#1b1b1b}.title{font-size:16px;font-weight:700}.axis{stroke:#666;stroke-width:1}.mps{fill:#d2d8de}.custom{fill:#1f7a8c}.line{stroke:#999;stroke-dasharray:4 4}.note{font-size:11px;fill:#555}</style>
+<rect width="100%" height="100%" fill="#fffdf8"/>
+<text class="title" x="24" y="28">Best plain custom config vs MPS (median latency ratio)</text>
+<text class="note" x="24" y="48">Bars left of 1.0 indicate a custom config beating MPS. Lower is better.</text>
+<line class="line" x1="\#(baselineX)" y1="62" x2="\#(baselineX)" y2="\#(height - 18)"/>
+<text x="\#(baselineX - 10)" y="74">1.0</text>
+<text x="24" y="\#(y + 14)">\#(summary.target.name)</text>
+<rect x="\#(leftMargin)" y="\#(y)" width="\#(plotWidth / maxRatio)" height="18" fill="#e6ebf0"/>
+<rect x="\#(leftMargin)" y="\#(y)" width="\#(barWidth)" height="18" fill="\#(barColor)"/>
+<text x="\#(leftMargin + barWidth + 8)" y="\#(y + 14)">\#(String(format: "%.2fx", ratio))</text>
+<text class="note" x="\#(leftMargin)" y="\#(y + 34)">best=\#(String(format: "%.3f", summary.bestEvaluation.result.medianMilliseconds)) ms | mps=\#(String(format: "%.3f", summary.mpsResult!.medianMilliseconds)) ms</text>
+<text x="24" y="\#(y + 14)">\#(summary.target.name)</text>
+<rect x="\#(leftMargin)" y="\#(y)" width="\#(plotWidth / maxRatio)" height="18" fill="#e6ebf0"/>
+<rect x="\#(leftMargin)" y="\#(y)" width="\#(barWidth)" height="18" fill="\#(barColor)"/>
+<text x="\#(leftMargin + barWidth + 8)" y="\#(y + 14)">\#(String(format: "%.2fx", ratio))</text>
+<text class="note" x="\#(leftMargin)" y="\#(y + 34)">best=\#(String(format: "%.3f", summary.bestEvaluation.result.medianMilliseconds)) ms | mps=\#(String(format: "%.3f", summary.mpsResult!.medianMilliseconds)) ms</text>
+<text x="24" y="\#(y + 14)">\#(summary.target.name)</text>
+<rect x="\#(leftMargin)" y="\#(y)" width="\#(plotWidth / maxRatio)" height="18" fill="#e6ebf0"/>
+<rect x="\#(leftMargin)" y="\#(y)" width="\#(barWidth)" height="18" fill="\#(barColor)"/>
+<text x="\#(leftMargin + barWidth + 8)" y="\#(y + 14)">\#(String(format: "%.2fx", ratio))</text>
+<text class="note" x="\#(leftMargin)" y="\#(y + 34)">best=\#(String(format: "%.3f", summary.bestEvaluation.result.medianMilliseconds)) ms | mps=\#(String(format: "%.3f", summary.mpsResult!.medianMilliseconds)) ms</text>
+<text x="24" y="\#(y + 14)">\#(summary.target.name)</text>
+<rect x="\#(leftMargin)" y="\#(y)" width="\#(plotWidth / maxRatio)" height="18" fill="#e6ebf0"/>
+<rect x="\#(leftMargin)" y="\#(y)" width="\#(barWidth)" height="18" fill="\#(barColor)"/>
+<text x="\#(leftMargin + barWidth + 8)" y="\#(y + 14)">\#(String(format: "%.2fx", ratio))</text>
+<text class="note" x="\#(leftMargin)" y="\#(y + 34)">best=\#(String(format: "%.3f", summary.bestEvaluation.result.medianMilliseconds)) ms | mps=\#(String(format: "%.3f", summary.mpsResult!.medianMilliseconds)) ms</text>
+<text x="24" y="\#(y + 14)">\#(summary.target.name)</text>
+<rect x="\#(leftMargin)" y="\#(y)" width="\#(plotWidth / maxRatio)" height="18" fill="#e6ebf0"/>
+<rect x="\#(leftMargin)" y="\#(y)" width="\#(barWidth)" height="18" fill="\#(barColor)"/>
+<text x="\#(leftMargin + barWidth + 8)" y="\#(y + 14)">\#(String(format: "%.2fx", ratio))</text>
+<text class="note" x="\#(leftMargin)" y="\#(y + 34)">best=\#(String(format: "%.3f", summary.bestEvaluation.result.medianMilliseconds)) ms | mps=\#(String(format: "%.3f", summary.mpsResult!.medianMilliseconds)) ms</text>
+</svg>

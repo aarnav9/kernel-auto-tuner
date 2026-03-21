@@ -1,0 +1,10 @@
+target,category,shape,config,sweep_median_ms,sweep_tuning_score_ms,validation_pass_count,validation_median_of_medians_ms,validation_min_median_ms,validation_max_median_ms,mps_validation_median_of_medians_ms,confirmed_ratio_vs_mps,confirmed_win,selected_for_claim
+edge_square,edge_heavy,130x130x130,sg_m16n16k8_t32x4,0.243375,0.243375,5,0.237792,0.228979,0.252104,0.262583,0.905586,true,true
+edge_square,edge_heavy,130x130x130,sg_m16n16k8_t8x16,0.241104,0.241104,5,0.240271,0.233833,0.251188,0.262583,0.915027,true,false
+edge_square,edge_heavy,130x130x130,sg_m16n16k8_t16x8,0.242188,0.242188,5,0.241750,0.234708,0.272625,0.262583,0.920660,true,false
+hunt_edge129,shape_hunt,129x129x129,sg_m16n16k8_t8x16,0.242750,0.242750,5,0.240812,0.234750,0.250958,0.268167,0.897995,true,true
+hunt_edge129,shape_hunt,129x129x129,sg_m16n16k8_t16x8,0.208458,0.208458,5,0.243333,0.237854,0.249979,0.268167,0.907394,true,false
+hunt_edge129,shape_hunt,129x129x129,sg_m16n16k8_t32x4,0.216438,0.216438,5,0.252000,0.233021,0.262771,0.268167,0.939713,true,false
+hunt_rect160x96x64,shape_hunt,160x96x64,m16n16k4_t16x16,0.205834,0.205834,5,0.230500,0.218229,0.233208,0.212021,1.087161,false,false
+hunt_rect160x96x64,shape_hunt,160x96x64,m64n16k8_t16x64,0.198750,0.198750,5,0.231917,0.211167,0.241354,0.212021,1.093840,false,false
+hunt_rect160x96x64,shape_hunt,160x96x64,sg_m16n16k8_t8x16,0.206979,0.206979,5,0.236833,0.210521,0.249584,0.212021,1.117029,false,false
